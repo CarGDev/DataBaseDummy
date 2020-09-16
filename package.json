@@ -1,0 +1,22 @@
+{
+  "name": "databasedummy",
+  "version": "1.0.0",
+  "description": "Dummy database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarGDev/DataBaseDummy.git"
+  },
+  "keywords": [
+    "database"
+  ],
+  "author": "Carlos Gutierrez <ingecarlos.gutierrez@gmail.com> (https://cargdev.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CarGDev/DataBaseDummy/issues"
+  },
+  "homepage": "https://github.com/CarGDev/DataBaseDummy#readme"
+}
