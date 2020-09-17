@@ -1,3 +1,5 @@
+'use strict'
+
 const bcrypt = require('bcrypt')
 const auth = require('../../../auth/index')
 const TABLA = 'auth'

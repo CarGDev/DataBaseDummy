@@ -1,3 +1,5 @@
+'use strict'
+
 const express = require('express')
 const user = require('../components/user/network')
 const message = require('../components/message/network')

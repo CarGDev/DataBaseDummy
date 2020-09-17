@@ -1,3 +1,5 @@
+'use strict'
+
 const store = require('./store')
 
 function addChat(users) {

@@ -1,9 +1,12 @@
+'use strict'
+
 require('dotenv').config()
 const db = require('mysql')
 const chalk = require('chalk')
 const { ENV, DBHOST, DBUSER, DBPASSWORD, DBDATABASE } = process.env
 const development = 'development'
-const PORT = process.env.PORT || 3336
+const config = require('./config')
+const PORT = config.api.port
 
 const connection = db.createConnection({
   host: DBHOST,
