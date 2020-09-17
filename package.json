@@ -4,6 +4,7 @@
   "description": "Dummy database",
   "main": "index.js",
   "scripts": {
+    "server-dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,12 +23,19 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "chalk": "^4.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mysql": "^2.18.1",
     "nanoid": "^3.1.12",
+    "ngrok": "^3.3.0",
     "redis": "^3.0.2",
     "request": "^2.88.2",
     "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "standard": "^14.3.4"
   }
 }
