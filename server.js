@@ -5,6 +5,7 @@ const bodyParser = require('body-parser')
 const app = express()
 const server = require('http').Server(app)
 const route = require('./network/routers')
+const errors = require('./network/errors')
 const db = require('./db')
 const cors = require('cors')
 const chalk = require('chalk')
@@ -16,6 +17,8 @@ route(app)
 app.use(cors())
 
 db.connectionDb(app)
+
+app.use(errors)
 
 server.listen(PORT, function () {
   console.log(chalk.green('Server connected'))
